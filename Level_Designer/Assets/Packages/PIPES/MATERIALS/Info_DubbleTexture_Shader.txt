@@ -1,0 +1,23 @@
+Shader Explanation can be altered with shader forge
+Mask:  User a 3 color mask to mask out the different textures that you can use in the shader
+Dif_01_Main: The main texture
+NRM_Main: The normalmap
+Spec_Main: The Specular for the main texture
+Spec_Amount: The amount of spec brightness
+Gloss: The Spec Gloss amount
+Dif_02(R): The texture for the Red channel of the mask
+R_Channel_Mask: Toggle Texture On/Off
+Spec_R: Specular for Texture
+Dif_03(G): The texture for the Green channel of the mask
+G_Channel_Mask: Toggle Texture On/Off
+Spec_G: Specular for Texture
+Dif_04(B): The texture for the Blue channel of the mask
+B_Channel_Mask: Toggle Texture On/Off
+Spec_B: Specular for Texture
+
+Detail: toggle detail on/Off
+DetailMap: Texture for the detail map
+Detail Desaturation: Desaturation for the texture
+Detail Power: Strength of the detail map
+NRM Detail: normal map for the detail texture
+Tile Detail: tiling of the detail map 
